@@ -1,0 +1,34 @@
+[[source]]
+url = "https://pypi.org/simple"
+name = "pypi"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+requests = {extras = ["socks"]}
+requests-oauthlib = "*"
+lxml = "*"
+"beautifulsoup4" = "*"
+pyquery = "*"
+pymysql = "*"
+pymongo = "*"
+redis = "*"
+selenium = "*"
+pillow = "*"
+pyocr = "*"
+flask = "*"
+django-pure-pagination = "*"
+aiohttp = "==2.3.6"
+yarl = "==1.2.0"
+wordcloud = "*"
+async-timeout = "==2.0.1"
+appium-python-client = "==0.2"
+itchat = "*"
+pyspider = "*"
+scrapy = "*"
+scrapyrt = "*"
+
+[requires]
+python_version = "3.5"

@@ -1,0 +1,7 @@
+l=[
+    {'name':'egon','age':18,'sex':'male'},
+    {'name':'alex','age':73,'sex':'male'},
+    {'name':'egon','age':20,'sex':'female'},
+    {'name':'egon','age':18,'sex':'male'},
+    {'name':'egon','age':18,'sex':'male'},
+]

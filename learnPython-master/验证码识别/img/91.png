@@ -1,0 +1,155 @@
+
+
+
+
+
+
+
+
+
+    
+    
+    
+        
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta content="width=device-width,initial-scale=0.8, minimum-scale=0.8, maximum-scale=3"
+          name="viewport"/>
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta property="qc:admins" content="754034015366713545637571540352652"/>
+    <meta property="wb:webmaster" content="1ad39047f32b5b6b"/>
+    <title>黑龙江大学统一身份认证</title>
+</head>
+<script>
+    
+
+</script>
+
+
+<link href="/authserver/custom/css/login.css;jsessionid=7OrLGXaj04QsHCW-3AE293K4_QwVj4a5yOfhMJDs_ESCkzZZ9v3l!1700378239" rel="stylesheet">
+<link href="/authserver/custom/css/iCheck/custom.css;jsessionid=7OrLGXaj04QsHCW-3AE293K4_QwVj4a5yOfhMJDs_ESCkzZZ9v3l!1700378239" rel="stylesheet">
+<link href="/authserver/custom/css/validation.css;jsessionid=7OrLGXaj04QsHCW-3AE293K4_QwVj4a5yOfhMJDs_ESCkzZZ9v3l!1700378239" rel="stylesheet" type="text/css"/>
+<link href="/authserver/custom/css/style1.css;jsessionid=7OrLGXaj04QsHCW-3AE293K4_QwVj4a5yOfhMJDs_ESCkzZZ9v3l!1700378239" rel="stylesheet" type="text/css"/>
+
+
+
+
+<body onload="loadFresh();">
+<div class="wallpaper">
+    <div class="login-main">
+    <div class="header"><i class="tc-img"><img src="/authserver/custom/picture/tc.png;jsessionid=7OrLGXaj04QsHCW-3AE293K4_QwVj4a5yOfhMJDs_ESCkzZZ9v3l!1700378239" width="73" height="93" /></i><i class="logo"><img src="/authserver/custom/picture/logo1.png;jsessionid=7OrLGXaj04QsHCW-3AE293K4_QwVj4a5yOfhMJDs_ESCkzZZ9v3l!1700378239" width="441" height="74" /></i></div>
+    <div class="login-area">
+    <div class="login-left"><img src="/authserver/custom/picture/login-img.jpg;jsessionid=7OrLGXaj04QsHCW-3AE293K4_QwVj4a5yOfhMJDs_ESCkzZZ9v3l!1700378239" width="694" height="392" /></div>
+    <div class="login-right">
+        <div class="form-area fw">
+        <h1>用户登录</h1>
+            <div class="form">
+                    <form id="casLoginForm" class="fm-v clearfix amp-login-form" role="form" action="/authserver/login;jsessionid=7OrLGXaj04QsHCW-3AE293K4_QwVj4a5yOfhMJDs_ESCkzZZ9v3l!1700378239?service=http%3A%2F%2Fmy.hlju.edu.cn%2FcaptchaGenerate.portal" method="post">
+                        
+                        <p>
+                            <span>用户名：</span>
+                            <input id="username" name="username" placeholder="用户名" class="ipt" type="text" value=""/>
+                        </p>
+                        <p>
+                            <span>密<span style="width:12px;"></span>码：</span>
+                            <input id="password" name="password" placeholder="密码" class="ipt" type="password" value="" autocomplete="off"/>
+                        </p>
+
+                        <p id="cpatchaDiv"></p>
+
+                        <p class="mt10" style="margin-top:6px;position: relative;"><span style="width:49px;"></span>&nbsp;
+						<span id="zzdl" style="display:none;width:80px;height:29px;background-image:url(/authserver/custom/images/zzdl.png;jsessionid=7OrLGXaj04QsHCW-3AE293K4_QwVj4a5yOfhMJDs_ESCkzZZ9v3l!1700378239);margin-left:-20px;position: absolute;top:3px;"></span>
+                        <input id="dlan" type="submit" name="btn" value=""  tabindex="4"
+                        style="border-width:0;width:80px;height:29px;background-image:url(/authserver/custom/images/dl.png;jsessionid=7OrLGXaj04QsHCW-3AE293K4_QwVj4a5yOfhMJDs_ESCkzZZ9v3l!1700378239);
+                        cursor:pointer;margin-left:-20px;position: absolute;top:3px;"  />
+                        <input tabindex="5" type="reset"  value=""
+                        style="border-width:0;width:80px;height:29px;background-image:url(/authserver/custom/images/cz.png;jsessionid=7OrLGXaj04QsHCW-3AE293K4_QwVj4a5yOfhMJDs_ESCkzZZ9v3l!1700378239);
+                        cursor:pointer; margin-left:4px;position: absolute;top:3px;left:130px;"  tabIndex="5"/>
+                        </p>
+		<div>
+			<div style="line-height: 25px;font-size: 15px;"></div>
+				
+				 <!-- -->
+				
+					<div style="display:inline-block">
+					<a href="combinedLogin.do?type=weixin&success=http://authserver.hlju.edu.cn:80/authserver/login?service=http%3A%2F%2Fmy.hlju.edu.cn%2FcaptchaGenerate.portal"><img src="/authserver/custom/images/wx.gif"></a></div>
+				
+				
+				
+				<!--<img src="/authserver/custom/images/wx.png"  ><a href="combinedLogin.do?type=&success=http://authserver.hlju.edu.cn:80/authserver/login?service=http%3A%2F%2Fmy.hlju.edu.cn%2FcaptchaGenerate.portal">微信扫码</a>-->
+		</div>
+                        <input type="hidden" name="lt" value="LT-1102502-uQjO7iS3OBcL1NdiK2VrJQSTCdqgdX1545300702882-msHA-cas"/>
+                        <input type="hidden" name="dllt" value="userNamePasswordLogin"/>
+                        <input type="hidden" name="execution" value="e1s1"/>
+                        <input type="hidden" name="_eventId" value="submit"/>
+                        <input type="hidden" name="rmShown" value="1">
+                    </form>
+            </div>
+    <div class="form-content" style="margin-top:7px;">
+    <p>说明：  <a id="getBackPasswordMainPage" href="getBackPasswordMainPage.do" target="_blank"><font class="f-blue">【密码找回】</font></a>&nbsp;&nbsp;<a href="http://125.223.1.100/ihlju/news_info_2057.html" target="_blank"><font class="f-blue">【解决无法登陆问题】</font></a></p>
+    <p>1.用户名:(1)教工用户名为职工号或别名，如工号有问题请咨询人事处。(2)学生用户名为学号。</p>
+    <p>2.密码：(1)首次登录：初始密码为本人身份证号后六位（字母大写）。(2)学生使用应用门户密码(即选课密码)登陆；</p>
+    <p>3.服务电话：学生86604835，教师86609104，或QQ在线咨询<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2108271424&site=qq&menu=yes"><img border="0" src="/authserver/custom/picture/qq.gif;jsessionid=7OrLGXaj04QsHCW-3AE293K4_QwVj4a5yOfhMJDs_ESCkzZZ9v3l!1700378239" alt="点击这里给我发消息" title="在线咨询"/></a></p>
+    </div>
+        </div>
+    </div>
+</div>
+
+    <div class="footer mt10">
+    <span>Copyright <font class="copy">©</font> 2016 黑龙江大学   All rights reserved.</span>
+    <p><a href="http://m.hlju.edu.cn" target="_blank">新版校园应用门户</a> |<a href="http://125.223.1.100/ihlju/index.html" target="_blank">移动客户端下载</a> | <a id="getBackPasswordMainPage"  href="getBackPasswordMainPage.do" >密码找回</a> | <a href="http://xsxk.hlju.edu.cn/xsxk" target="_blank">选课系统</a>
+    <!--<a href="http://my.hlju.edu.cn/dns.rar" target="_blank">DNS</a>-->
+    </p>
+    </div>
+
+    </div>
+</div>
+
+<script type="text/javascript" src="/authserver/custom/js/jquery.min.js;jsessionid=7OrLGXaj04QsHCW-3AE293K4_QwVj4a5yOfhMJDs_ESCkzZZ9v3l!1700378239"></script>
+<script type="text/javascript" src="/authserver/custom/js/login-language.js;jsessionid=7OrLGXaj04QsHCW-3AE293K4_QwVj4a5yOfhMJDs_ESCkzZZ9v3l!1700378239"></script>
+<script type="text/javascript" src="/authserver/custom/js/icheck.min.js;jsessionid=7OrLGXaj04QsHCW-3AE293K4_QwVj4a5yOfhMJDs_ESCkzZZ9v3l!1700378239"></script>
+
+<script type="text/javascript" src="/authserver/custom/js/login.js;jsessionid=7OrLGXaj04QsHCW-3AE293K4_QwVj4a5yOfhMJDs_ESCkzZZ9v3l!1700378239"></script>
+<script type="text/javascript" src="/authserver/custom/js/login-wisedu.js;jsessionid=7OrLGXaj04QsHCW-3AE293K4_QwVj4a5yOfhMJDs_ESCkzZZ9v3l!1700378239"></script>
+
+<script type="text/javascript">
+
+    // 选中tab框
+    var dllt = '';
+    if (dllt != '' && dllt == 'dynamicLogin') {
+        selectLi($("#dyLogin"));
+    } else {
+        selectLi($("#accountLogin"));
+    }
+
+    $(document).ready(function () {
+		$("#captchaImg").attr("src","captcha.html?ts=" + new Date().getMilliseconds());
+        
+
+        var service = GetQueryString("service");
+        if (service) {
+            $("#getBackPasswordMainPage").attr("href", "getBackPasswordMainPage.do?service=" + encodeURIComponent(service));
+        }
+    });
+
+
+</script>
+</body>
+<div id="hidenCaptchaDiv" style="display:none">
+    <span>验证码：</span>
+    <input type="text" name="captchaResponse" id="captchaResponse" class="ipt1" />
+    <img id="captchaImg"  title="验证码" alt="验证码" class="ipt1" >
+    </div>
+</html>
+    
+
