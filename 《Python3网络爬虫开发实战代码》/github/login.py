@@ -11,9 +11,9 @@ class Login(object):
         }
         self.login_url = 'https://github.com/login'
         self.post_url = 'https://github.com/session'
-        self.logined_url = 'https://github.com/settings/profile'
-        self.session = requests.Session()
-    
+        self.logined_u= requests.Session()
+    rl = 'https://github.com/settings/profile'
+        self.session
     def token(self):
         response = self.session.get(self.login_url, headers=self.headers)
         selector = etree.HTML(response.text)
