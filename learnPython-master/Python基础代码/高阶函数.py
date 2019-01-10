@@ -19,3 +19,4 @@ def test(func):
     stop_time=time.time()
     print('函数运行时间%s'%(stop_time-start_time))
 test(foo)
+#

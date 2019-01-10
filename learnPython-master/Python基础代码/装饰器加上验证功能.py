@@ -4,28 +4,38 @@ __author__ = 'admin'
 
 # 京东后端就是一个个的功能
 # 都装上一个验证功能
-user_dic={'username':None,'login':False}
 
+user_list=[
+    {'name':'alex','passwd':'123'},
+    {'name':'linhaifeng','passwd':'123'},
+    {'name':'wupeiqi','passwd':'123'},
+    {'name':'yuanhao','passwd':'123'},
+]
 
+current_dic={'username':None,'login':False}
+
+de auth(auth_type='filedb'):
 def auth_func(func):
     def wrapper(*args,**kwargs):
-        if user_dic['username'] and user_dic['login']:
+        print('认证类型是%s' %name)
+        for user_dic in user_list:
+
             res = func(*args, **kwargs)
             return res
         username=input('用户名:').strip()
         passwd=input('密码').strip()
-        if username == 'sb' and passwd == '123':
-            user_dic['username']=username
-            user_dic['login']=True
+        if user_dic['username'] and user_dic['login']:
+            current_dic['username']=username
+            current_dic['login']=True
 
             res=func(*args,**kwargs)
             return res
         else:
             print('用户名或者密码错误')
-        return wrapper
+    return wrapper
 
 
-@auth_func
+@auth(auth_type='filedb')
 def index():
     print('欢迎来到京东')
 

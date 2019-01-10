@@ -45,9 +45,6 @@ test1('alex',18,'male')
 
 #都装上一个验证功能
 
-def auth():
-
-
 def index():
     pass
 
