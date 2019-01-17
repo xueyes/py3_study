@@ -31,3 +31,13 @@ dog3=Dog('yuanhao','female','藏獒')
 dog1.bark()
 dog2.yao_ren()
 dog3.chi_shi()
+
+
+#上帝创造一个造人的模板
+
+
+
+
+
+
+
