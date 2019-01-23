@@ -8,7 +8,7 @@ sample1 = """<html>
     <h2>Welcome to my <a href="#" src="x">page</a></h2>
     <p>This is the first paragraph.</p>
     <!-- this is the end -->
-  </body>
+  </body> 
 </html>
 """
 
