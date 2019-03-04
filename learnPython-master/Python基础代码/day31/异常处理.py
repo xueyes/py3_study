@@ -34,15 +34,32 @@ __author__ = 'admin'
 #
 # age = input('>>>:')
 #
+#
+# try:
+#     age=input('1>>:')
+#     int(age) #主逻辑
+#
+#     num2=input('2>>:')
+#     int(num2)  #主逻辑
+#
+#     l=[]
+#     1[10000]
+#
+#     dic={}
+#     dic['name']
+# except Exception as e:
+# # except ValueError as e:
+#     print(e)
+#
+# print(111111111111)
 
-try:
-    age=input('1>>:')
-    int(age) #主逻辑
 
-    num2=input('2>>:')
-    int(num2)  #主逻辑
-
-except ValueError as e:
-    print(e)
-
+while True:
+    try:
+        age=input('1>>: ')
+        int(age) #主逻辑
+        break
+    except Exception as e:
+        print('请重新输入',e)
+print('11111111111')
 
