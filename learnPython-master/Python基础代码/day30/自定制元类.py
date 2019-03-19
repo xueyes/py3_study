@@ -31,6 +31,7 @@ class Foo(metaclass=MyType): #Foo=MyType(Foo，'Foo',(object,{})-->__init__
 
 # f1=Foo('name')
 # print(Foo)
+
 f1=Foo('alex')
 print(f1)
 print(f1.__dict__)
